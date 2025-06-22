@@ -18,7 +18,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        "open-sans": ["Open Sans", "sans-serif"],
+      },
       colors: {
+        // Amuse Tech custom colors
+        "amuse-primary": "#0C1B33",
+        "amuse-accent": "#00FFB2",
+        "amuse-background": "#F7F9FC",
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
